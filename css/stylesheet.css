@@ -12,7 +12,7 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	background-color: #1a237e;
 	
 }
 .peach-after {
@@ -22,93 +22,92 @@ body {
 	-ms-animation:peach_alive linear 8s infinite;
 	animation:peach_alive linear 8s infinite;
 }
-
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #0d47a1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #0d47a1;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #0d47a1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #0d47a1;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #0d47a1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #0d47a1;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #0d47a1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #0d47a1;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #0d47a1;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #0d47a1;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #1a237e;
 	}
 }
 
@@ -1275,9 +1274,10 @@ audio {
 	font-family: 'Dongle', sans-serif;
 	font-style: normal;
 	font-size: 50px;
-	text-transform: uppercase;
-	color: #C4515C;
-	text-shadow: 2px 2px 2px #FFF;
+	/*text-transform: uppercase;*/
+	color: #9ccc65;
+	opacity: 50%;
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 	display: none;
 	font-weight: bold;
 }
