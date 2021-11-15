@@ -52,7 +52,7 @@ $('document').ready(function(){
 	});
 
 	function loopOne() {
-		var randleft = 1000*Math.random();
+		var randleft = 250*Math.random();
 		var randtop = 500*Math.random();
 		$('#b1').animate({left:randleft,bottom:randtop},10000,function(){
 			loopOne();
@@ -88,7 +88,7 @@ $('document').ready(function(){
 	}
 
 	function loopSix() {
-		var randleft = 1000*Math.random();
+		var randleft = 250*Math.random();
 		var randtop = 500*Math.random();
 		$('#b6').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSix();
