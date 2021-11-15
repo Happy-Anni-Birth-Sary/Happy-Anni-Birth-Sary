@@ -24,90 +24,90 @@ body {
 }
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	25%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	50%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	75%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	100%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	25%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	50%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	75%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	100%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	25%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	50%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	75%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	100%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	25%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	50%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	75%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	100%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	25%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	50%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 	75%{
-		background-color: #0d47a1;
+		background-color: #1a237e;
 	}
 	100%{
-		background-color: #1a237e;
+		background-color: #090f5a;
 	}
 }
 
@@ -1115,69 +1115,69 @@ audio {
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
-	-webkit-transform: rotate(30deg);
+	-webkit-transform: rotate(15deg);
 	-moz-animation: balloons_rotate_one linear 10s infinite;
-	-moz-transform: rotate(30deg);
+	-moz-transform: rotate(15deg);
 	-o-animation: balloons_rotate_one linear 10s infinite;
-	-o-transform: rotate(30deg);
+	-o-transform: rotate(15deg);
 	-ms-animation: balloons_rotate_one linear 10s infinite;
-	-ms-transform: rotate(30deg);
+	-ms-transform: rotate(15deg);
 	animation: balloons_rotate_one linear 10s infinite;
-	transform: rotate(30deg);
+	transform: rotate(15deg);
 }
 @-webkit-keyframes balloons_rotate_one {
 	0% {
-		-webkit-transform: rotate(30deg);
+		-webkit-transform: rotate(15deg);
 	}
 	50% {
-		-webkit-transform: rotate(-30deg);
+		-webkit-transform: rotate(-15deg);
 	}
 	100% {
-		-webkit-transform: rotate(30deg);
+		-webkit-transform: rotate(15deg);
 	}
 }
 @-moz-keyframes balloons_rotate_one {
 	0% {
-		-moz-transform: rotate(30deg);
+		-moz-transform: rotate(15deg);
 	}
 	50% {
-		-moz-transform: rotate(-30deg);
+		-moz-transform: rotate(-15deg);
 	}
 	100% {
-		-moz-transform: rotate(30deg);
+		-moz-transform: rotate(15deg);
 	}
 }
 @-o-keyframes balloons_rotate_one {
 	0% {
-		-o-transform: rotate(30deg);
+		-o-transform: rotate(15deg);
 	}
 	50% {
-		-o-transform: rotate(-30deg);
+		-o-transform: rotate(-15deg);
 	}
 	100% {
-		-o-transform: rotate(30deg);
+		-o-transform: rotate(15deg);
 	}
 }
 @-ms-keyframes balloons_rotate_one {
 	0% {
-		-ms-transform: rotate(30deg);
+		-ms-transform: rotate(15deg);
 	}
 	50% {
-		-ms-transform: rotate(-30deg);
+		-ms-transform: rotate(-15deg);
 	}
 	100% {
-		-ms-transform: rotate(30deg);
+		-ms-transform: rotate(15deg);
 	}
 }
 @keyframes balloons_rotate_one {
 	0% {
-		transform: rotate(30deg);
+		transform: rotate(15deg);
 	}
 	50% {
-		transform: rotate(-30deg);
+		transform: rotate(-15deg);
 	}
 	100% {
-		transform: rotate(30deg);
+		transform: rotate(15deg);
 	}
 }
 .balloons-rotate-behaviour-two {
@@ -1275,8 +1275,8 @@ audio {
 	font-style: normal;
 	font-size: 50px;
 	/*text-transform: uppercase;*/
-	color: #9ccc65;
-	opacity: 50%;
+	color: #d4e157;
+	opacity: 90%;
 	text-shadow: 2px 2px 2px rgb(0, 0, 0);
 	display: none;
 	font-weight: bold;
