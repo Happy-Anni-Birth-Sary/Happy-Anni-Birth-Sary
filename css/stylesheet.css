@@ -8,20 +8,24 @@ body {
 	transition:background-color linear 5s;
 	overflow-x:hidden;
 }
+
 .container {
 	display: none;
 }
+
 .peach {
 	background-color: #1a237e;
 	
 }
+
 .peach-after {
-	-webkit-animation:peach_alive linear 8s infinite;
-	-moz-animation:peach_alive linear 8s infinite;
-	-o-animation:peach_alive linear 8s infinite;
-	-ms-animation:peach_alive linear 8s infinite;
-	animation:peach_alive linear 8s infinite;
+	-webkit-animation : peach_alive linear 8s infinite;
+	-moz-animation : peach_alive linear 8s infinite;
+	-o-animation : peach_alive linear 8s infinite;
+	-ms-animation : peach_alive linear 8s infinite;
+	animation : peach_alive linear 8s infinite;
 }
+
 @-webkit-keyframes peach_alive {
 	0%{
 		background-color: #090f5a;
@@ -56,7 +60,6 @@ body {
 		background-color: #090f5a;
 	}
 }
-
 @-o-keyframes peach_alive {
 	0%{
 		background-color: #090f5a;
@@ -74,7 +77,6 @@ body {
 		background-color: #090f5a;
 	}
 }
-
 @-ms-keyframes peach_alive {
 	0%{
 		background-color: #090f5a;
@@ -92,7 +94,6 @@ body {
 		background-color: #090f5a;
 	}
 }
-
 @keyframes peach_alive {
 	0%{
 		background-color: #090f5a;
@@ -110,7 +111,6 @@ body {
 		background-color: #090f5a;
 	}
 }
-
 
 .bulb {
 	width: 50px;
@@ -978,15 +978,15 @@ audio {
 }
 .bannar-come {
 	-webkit-animation: bannar_come linear 6s;
-	-webkit-transform:translate(0px,0px);
+	-webkit-transform: translate(0px,0px);
 	-moz-animation: bannar_come linear 6s;
-	-moz-transform:translate(0px,0px);
+	-moz-transform: translate(0px,0px);
 	-o-animation: bannar_come linear 6s;
-	-o-transform:translate(0px,0px);
+	-o-transform: translate(0px,0px);
 	-ms-animation: bannar_come linear 6s;
-	-ms-transform:translate(0px,0px);
+	-ms-transform: translate(0px,0px);
 	animation: bannar_come linear 6s;
-	transform:translate(0px,0px);
+	transform: translate(0px,0px);
 }
 @-webkit-keyframes bannar_come {
 	0%{
@@ -1254,11 +1254,13 @@ audio {
 	opacity: 0.5;
 	z-index: 9999;
 }
+
 .control-panel {
 	position: fixed;
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
+
 #play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
 	display: none;
 }
@@ -1266,10 +1268,12 @@ audio {
 .cake-cover {
 	margin-top: 50px;
 }
+
 .message {
 	margin-top: 200px;
 	display: none;
 }
+
 .message p {
 	font-family: 'Dongle', sans-serif;
 	font-style: normal;
@@ -1302,8 +1306,6 @@ audio {
         color: #fff;
         background-color: #466baf;
     }
-
-
 
     /*controlling tablet width*/
     /*@media only screen and (max-width: 720px){
